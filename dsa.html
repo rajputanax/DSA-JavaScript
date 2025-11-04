@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif, 'roboto';
+            text-align: center;
+            background-image: linear-gradient(transparent, rgba(0, 0, 1, 0.7));
+            background-repeat: no-repeat;
+            padding-block: 11%;
+            height: 100vh;
+
+            ul {
+                text-align: left;
+                max-width: 400px;
+                margin: 0 auto;
+
+                li {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .dec-under--lined {
+                text-decoration: underline;
+                text-decoration-color: crimson;
+                text-decoration-thickness: 6px;
+                color: rgb(100, 30, 44);
+            }
+
+           h1{
+
+               animation: blinker 1.9s ease infinite;
+        }
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  95%{
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+    </style>
+</head>
+</head>
+
+<body>
+    <h1 class="tittle-animate">Programming / Coding</h1>
+    <h3 class="dec-under--lined">SORT(ing)</h3>
+    <ul>
+        <!-- ...................................................................  -->
+        <h4>
+            Array
+        </h4>
+        <li>
+            reverse
+        </li>
+        <li>
+            Find Largest
+        </li>
+        <li>
+            check if the array sorted or not
+        </li>
+        <li>
+            Bubble Sort
+        </li>
+        <li>
+            Sort in decending Order & find Kth elem
+        </li>
+        <!-- ...................................................................  -->
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bubble_sort.js"></script>
+    <script src="sortFind_kth.js"></script>
+    <script src="reverse.js"></script>
+    <script src="2D-3D-Array.js"></script>
+    <script src="isSorted.js"></script>
+
+</body>
+
+</html>
